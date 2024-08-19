@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="display">
+            <h1>Gradient Generator</h1><br>
+                   
+            <!-- !for drop-down -->
+            <div id="drop_down">
+                <label for="graident">Select Gradient type:</label>
+                <select id="graident">
+                    <option value="">None</option>
+                   <option value=">Linear" id="Linear">Linear</option>
+                   <option value="Radial" id="Radial">Radial</option>
+                   <option value="Conical" id="Conical">Conical</option>
+                </select><br><br>
+            </div>
+
+            <!-- !for colors -->
+                <div id="color">
+                    <label for="color1">color1</label>
+                    <input id="color1" type="color">
+
+                    <label for="color2">color2</label>
+                    <input type="color" id="color2">
+                    
+                    <label for="color3">color3</label>
+                    <input type="color" id="color3">
+                </div><br><br>
+    
+             <section id="displaycolor"></section>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
